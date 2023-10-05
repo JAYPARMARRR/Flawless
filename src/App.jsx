@@ -9,8 +9,8 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      <Route path="/Login_Flawless" element={<Login_Flawless/>}/>
-      <Route path="/" element={<Main_Flawless/>}/>
+      <Route path="/" element={<Login_Flawless/>}/>
+      <Route path="/Main_Flawless" element={<Main_Flawless/>}/>
 
     </Routes>
     

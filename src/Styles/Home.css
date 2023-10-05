@@ -1,3 +1,7 @@
-.Home_main-img{
-    background-image: url("../assets/Home_main_Img.jpg");
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+
 }
+

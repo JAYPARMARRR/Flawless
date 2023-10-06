@@ -1,21 +1,7 @@
-import { useState } from "react";
 import DataShop from "../Services/Shop";
-import { FaShoppingBag } from "react-icons/fa";
+import HoverItem from "./hoverItem";
 
 const Arrivals_New = () => {
-  const [isHovering, setisHovering] = useState(false);
-
-
-
- 
-  const MouseOver = () => {
-    setisHovering(true);
-  };
-
-  const MouseOut = () => {
-    setisHovering(false);
-  };
-
   return (
     <>
       <div className="wrapper">
@@ -25,42 +11,13 @@ const Arrivals_New = () => {
             SHOP NOW
           </button>
         </div>
-  
+
         <div className="flex gap-6 flex-wrap  ">
-          {DataShop().map((e) => {
-            return (
-              <>
-                <div
-                  key={e.id}
-                  className=" h-[66vh] w-[35vh] ml-1 "
-                  >
-                      {isHovering && (
-                          <>
-                          <div className=" justify-end flex items-center  "> 
-                 
-                            <FaShoppingBag className="text-slate-600 duration-500 absolute  "  />
-                          </div>
-                          </>
-                        )}
-                  <img
-                    src={e.img}
-                    
-                    className=" h-[53vh] cursor-pointer"
-                    onMouseOver={MouseOver}
-                    onMouseOut={MouseOut}
-                    
-                    />{e.id}
-                  <p className="text-slate-400 text-[14px]">{e.Category}</p>
-                  <p className="text-[16px] text-slate-900">{e.title}</p>
-                  <p className="text-[19px]">☆☆☆☆☆</p>
-                  <p className="text-[16px]">{e.price}</p>
-                </div>
-              </>
-            );
+          {DataShop().map((e, index) => {
+            return <HoverItem key={index} e={e} />
           })}
         </div>
       </div>
-     
     </>
   );
 };

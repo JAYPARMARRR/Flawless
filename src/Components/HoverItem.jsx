@@ -1,9 +1,15 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import { FaShoppingBag } from "react-icons/fa";
+import { Popover } from "antd";
 
 const HoverItem = ({ e, key }) => {
   const [hoverItem, sethoverItem] = useState(null);
+  const content = (
+    <div>
+      <p className="font-bold">Add To Cart 😀</p>
+    </div>
+  );
 
   return (
     <>
@@ -16,14 +22,14 @@ const HoverItem = ({ e, key }) => {
         {hoverItem && (
           <>
             <div className=" justify-end flex items-center  ">
-              <FaShoppingBag
-                className="text-slate-600 duration-500 absolute cursor-pointer"
-              />
+              <Popover content={content} trigger="hover">
+                <FaShoppingBag className="text-slate-600 duration-500 absolute cursor-pointer" />
+              </Popover>
             </div>
           </>
         )}
         <img src={e.img} className=" h-[53vh] cursor-pointer " />
-        {e.id}
+      
         <p className="text-slate-400 text-[14px]">{e.Category}</p>
         <p className="text-[16px] text-slate-900">{e.title}</p>
         <p className="text-[19px]">☆☆☆☆☆</p>

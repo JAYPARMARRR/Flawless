@@ -1,11 +1,14 @@
-import Home from "../Components/Home"
+import Arrivals_New from "../Components/Arrivals_New";
+import Home from "../Components/Home";
 
 const Main_Flawless = () => {
   return (
     <>
-    <Home/>
-    </>
-  )
-}
+      <Home />
 
-export default Main_Flawless
+      <Arrivals_New />
+    </>
+  );
+};
+
+export default Main_Flawless;

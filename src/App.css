@@ -1,5 +1,10 @@
 *{
     font-family: 'Quicksand', sans-serif;
+   
 }
 
 
+::selection {
+    color: black;
+    background: rgb(250, 45, 100);
+  }

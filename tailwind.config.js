@@ -9,7 +9,7 @@ export default {
       colors: {
         midPink: "rgb(251, 75, 122)",
         darkPink: "rgb(250, 45, 100)",
-        lightGray: "rgb(100, 100, 103)",
+        lightGray: "rgb(30, 30, 36)",
       },
       
     },

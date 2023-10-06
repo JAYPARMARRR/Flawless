@@ -28,7 +28,7 @@ const HoverItem = ({ e, key }) => {
             </div>
           </>
         )}
-        <img src={e.img} className=" h-[53vh] cursor-pointer " />
+        <img src={e.img} className=" h-[53vh] cursor-pointer "  />
       
         <p className="text-slate-400 text-[14px]">{e.Category}</p>
         <p className="text-[16px] text-slate-900">{e.title}</p>

@@ -3,11 +3,12 @@ import Beauty_Flawless_Skin_img from "../assets/girl.jpg";
 const Beauty_Flawless_Skin = () => {
   return (
     <>
-      <div className="wrapper bg-slate-500 flex " >
-        <div>
-          <img src={Beauty_Flawless_Skin_img}  />
+      <div className="wrapper bg-slate-500 flex  mt-52" >
+        <div className="h-[40rem]  w-[100rem]">
+          <img src={Beauty_Flawless_Skin_img} className="" />
         </div>
-        <div>
+        <div >
+          <h1>━━━━</h1>
           <h1 className="text-4xl">Beauty Flawless Skin</h1>
           <p>
             Enim lectus mauris faucibus turpis convallis ipsum odio lorem

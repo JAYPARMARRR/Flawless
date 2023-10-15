@@ -11,12 +11,15 @@ const Arrivals_New = () => {
             SHOP NOW
           </button>
         </div>
+{/* ctrl+alt+t */}
+<div className="flex justify-center items-center ">
 
-        <div className="flex gap-6 flex-wrap  ">
+        <div className="flex  gap-8 flex-wrap  w-[85%] ">
           {DataShop().map((e, index) => {
             return <HoverItem key={index} e={e} />
           })}
         </div>
+</div>
       </div>
     </>
   );

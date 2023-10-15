@@ -21,9 +21,9 @@ const HoverItem = ({ e, key }) => {
       >
         {hoverItem && (
           <>
-            <div className=" justify-end flex items-center  ">
+            <div className=" justify-end flex items-center bg-slate-800 ">
               <Popover content={content} trigger="hover">
-                <FaShoppingBag className="text-slate-600 duration-500 absolute cursor-pointer" />
+                <FaShoppingBag className="text-slate-600  duration-500 absolute cursor-pointer" />
               </Popover>
             </div>
           </>

@@ -25,8 +25,9 @@ const Beauty_Flawless_Skin = () => {
           <button className="border-darkPink border px-6 py-3 text-[13px] text-darkPink hover:bg-darkPink hover:text-white duration-500 ">
             READ MORE
           </button>
+          Jayu parmatr
         </div>
-      </div>
+      </div>       
     </>
   );
 };

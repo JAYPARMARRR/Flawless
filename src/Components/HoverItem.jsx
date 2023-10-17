@@ -5,6 +5,7 @@ import { Popover } from "antd";
 
 
 const HoverItem = ({ e, key }) => {
+
   const [hoverItem, sethoverItem] = useState(null);
   const content = (
     <div>
@@ -34,7 +35,7 @@ const HoverItem = ({ e, key }) => {
         <p className="text-slate-400 text-[14px]">{e.Category}</p>
         <p className="text-[16px] text-slate-900">{e.title}</p>
         <p className="text-[19px]">☆☆☆☆☆</p>
-        <p className="text-[16px]">{e.price}</p>
+        <p className="text-[16px] font-bold">{e.price}</p>
       </div>
     </>
   );

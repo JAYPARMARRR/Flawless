@@ -1,9 +1,9 @@
 *{
     font-family: 'Quicksand', sans-serif;
-   
+  
 }
 
-
+/* main bac color #F8F8FF */
 ::selection {
     color: black;
     background: rgb(250, 45, 100);

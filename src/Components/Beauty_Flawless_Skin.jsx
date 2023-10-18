@@ -26,9 +26,14 @@ const Beauty_Flawless_Skin = () => {
           <button className="border-darkPink border px-7 py-[14px] text-[13px] text-darkPink hover:bg-darkPink hover:text-white duration-500 ">
             READ MORE
           </button>
+          Jayu parmatr
         </div>
+<<<<<<< HEAD
     
       </div>
+=======
+      </div>       
+>>>>>>> origin/main
     </>
   );
 };

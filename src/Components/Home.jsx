@@ -30,8 +30,8 @@ const Home = () => {
         <div className="wrapper">
 
         <p className="text-white mt-36 ml-16" >WELCOME TO FLAWLESS STORE</p>
-        <h1 className="text-white text-7xl mt-20 ml-14">The Best Skin</h1>
-        <h1 className="text-white text-7xl mt-4 ml-14"> Cleanser for You</h1>
+        <h1 className="text-white text-7xl mt-16 ml-12">The Best Skin</h1>
+        <h1 className="text-white text-7xl mt-4 ml-12"> Cleanser for You</h1>
         <button className="border-white border px-8 py-4 text-[13px] text-white hover:bg-white hover:text-darkPink duration-500 ml-16 mt-11">SHOP NOW</button>
         </div>
 

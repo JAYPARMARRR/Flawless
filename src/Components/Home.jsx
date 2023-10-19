@@ -1,20 +1,20 @@
 import "../Styles/Home.css";
 import { AiTwotoneShopping } from "react-icons/ai";
-// import { FiLogIn } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <>
       <div className="bg-cover bg-no-repeat bg-hero-lg h-[95vh]">
         <nav className="flex justify-between items-center shadow-2xl ">
-          <div>
+          
             <ul className=" flex text-white p-6 cursor-pointer">
-              <li className="block py-2 pl-3 pr-4  hover:text-darkPink ">HOME</li>
-              <li className="block py-2 pl-3 pr-4  hover:text-darkPink">SHOP</li>
-              <li className="block py-2 pl-3 pr-4  hover:text-darkPink">ABOUT</li>
-              <li className="block py-2 pl-3 pr-4  hover:text-darkPink">CONTACT</li>
+              <li className="block py-2 pl-3 pr-4  hover:text-darkPink "> <Link to="/">HOME</Link></li>
+              <li className="block py-2 pl-3 pr-4  hover:text-darkPink"> <Link to="/shop">SHOP</Link></li>
+              <li className="block py-2 pl-3 pr-4  hover:text-darkPink"> <Link to="/about">ABOUT</Link></li>
+              <li className="block py-2 pl-3 pr-4  hover:text-darkPink"> <Link to="/contact">CONTACT</Link></li>
             </ul>
-          </div>
+          
           <h1 className="text-white py-2 pl-3 pr-4 text-4xl cursor-pointer">
             Flawless
           </h1>

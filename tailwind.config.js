@@ -5,7 +5,9 @@ export default {
     extend: {
       backgroundImage: {
         "hero-lg": "url('/src/assets/Home_main_Img.jpg')",
-        "Flawless_Skincare_Regimen_img" : "url('/src/assets/girl_2.jpg')"
+        "Flawless_Skincare_Regimen_img" : "url('/src/assets/girl_2.jpg')",
+        "aboutImgMain" : "url('/src/assets/about.jpg')",
+        "contact_img" : "url('/src/assets/contact_main.jpg')"
       },
       colors: {
         midPink: "rgb(251, 75, 122)",

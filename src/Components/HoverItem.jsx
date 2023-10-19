@@ -18,7 +18,7 @@ const HoverItem = ({ e, key }) => {
       <div
         key={e.id}
         className=" h-[66vh] w-[35vh] mt-9 relative"
-        onMouseOver={() => sethoverItem(true)}
+        onMouseOver={() => sethoverItem(true)}  
         onMouseOut={() => sethoverItem(false)}
       >
         {hoverItem && (

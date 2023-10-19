@@ -24,7 +24,7 @@ const Beauty_Flawless_Skin = () => {
             facilisis ante ornare.
           </p>
           <button className="border-darkPink border px-7 py-[14px] text-[13px] text-darkPink hover:bg-darkPink hover:text-white duration-500 ">
-            READ MORE
+          <a href="https://en.wikipedia.org/wiki/Skin_care" target="_blank">READ MORE</a> 
           </button>
           
         </div>

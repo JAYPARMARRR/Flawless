@@ -7,3 +7,12 @@
     color: black;
     background: rgb(250, 45, 100);
   }
+
+
+  .wrapper_1{
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    font-weight: 800;
+    background-color: aquamarine;
+}
